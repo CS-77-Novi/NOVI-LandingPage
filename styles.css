@@ -193,7 +193,7 @@ p {
     color: var(--text-color);
     font-weight: 600;
     transition: color 0.3s;
-    padding: 5px 0; /* Adding padding for clickable area */
+    padding: 5px 7px; /* Adding padding for clickable area */
 }
 
 .nav-links a:hover {
@@ -562,6 +562,42 @@ p {
     margin-bottom: 10px;
 }
 
+/* Development team */
+.development-team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.team-card {
+    text-align: center;
+    padding: 25px; /* Increased padding */
+    border-radius: 12px;
+    background-color: var(--white);
+    border: 1px solid #eee;
+    transition: box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.team-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.team-card i {
+    font-size: 3em; /* Larger icons */
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.team-card h5 {
+    font-size: 1.2em;
+    color: var(--text-color);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
 
 /* Call to Action */
 .cta {
@@ -668,6 +704,10 @@ p {
     .related-products-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    /* Development team grid on medium screens */
+    .development-team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
     /* ML feature split: remove border and padding for vertical stack */
     .engagement-tools {
@@ -743,6 +783,9 @@ p {
         margin-bottom: 50px;
     }
     .grid-3, .related-products-grid {
+        grid-template-columns: 1fr;
+    }
+    .grid-3, .development-team-grid {
         grid-template-columns: 1fr;
     }
     .cta h2 {
