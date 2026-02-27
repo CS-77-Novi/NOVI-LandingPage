@@ -1,0 +1,36 @@
+
+/* Aliases for component compatibility */
+.text-gradient-purple-cyan { background: linear-gradient(135deg, #a855f7, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.text-gradient-cyan-green  { background: linear-gradient(135deg, #06b6d4, #22c55e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.text-muted { color: #64748b; }
+.text-cyan  { color: #06b6d4; }
+.text-purple { color: #a855f7; }
+
+/* Feature card top border on hover */
+.feature-card-top::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #a855f7, #06b6d4); opacity: 0; transition: opacity 0.3s; }
+.feature-card-top:hover::before { opacity: 1; }
+
+/* Hero mockup float */
+.hero-float { animation: floatAnim 6s ease-in-out infinite; }
+
+/* Bar fill in mockup */
+@keyframes barFillAnim { from { width: 0 } }
+.bar-fill-animate { animation: barFillAnim 1.8s ease-out forwards; }
+
+/* Attention pulse */
+@keyframes attPulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.att-pulse { animation: attPulse 2s ease-in-out infinite; }
+
+/* Yellow color for mockup */
+.bg-yellow { background: #eab308; }
+.text-green { color: #22c55e; }
+.bg-green { background: #22c55e; }
+
+/* Logo gradient */
+.logo-gradient { background: linear-gradient(135deg, #a855f7, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+/* Glow helpers for hover */
+.hover-glow-purple:hover { box-shadow: 0 0 40px rgba(168,85,247,0.35); border-color: rgba(168,85,247,0.4) !important; }
+.hover-glow-blue:hover   { box-shadow: 0 0 40px rgba(59,130,246,0.35);  border-color: rgba(59,130,246,0.4) !important; }
+.hover-glow-cyan:hover   { box-shadow: 0 0 40px rgba(6,182,212,0.35);   border-color: rgba(6,182,212,0.4) !important; }
+.hover-glow-green:hover  { box-shadow: 0 0 40px rgba(34,197,94,0.35);   border-color: rgba(34,197,94,0.4) !important; }
