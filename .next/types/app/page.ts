@@ -1,4 +1,4 @@
-// File: D:\LEVEL 05\UNIVERSITY\SDGP\SDGP\NOVI-LandingPage\app\page.tsx
+// File: C:\Github\NOVI-LandingPage\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

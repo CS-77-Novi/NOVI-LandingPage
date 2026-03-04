@@ -31,7 +31,7 @@ export default function Testimonials() {
                   className="text-purple text-4xl leading-none mb-4 font-syne"
                   aria-hidden="true"
                 >
-                  "
+                  &ldquo;
                 </div>
                 <p className="text-muted text-sm leading-relaxed italic mb-7">
                   {t.quote}
