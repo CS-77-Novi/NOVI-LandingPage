@@ -90,7 +90,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-5 pt-8 border-t border-white/10">
           <p className="text-xs text-muted">
-            © 2025 NOVI Technologies. All rights reserved.
+            © {new Date().getFullYear()} NOVI Technologies. All rights reserved.
           </p>
           <div className="flex gap-6">
             {[
