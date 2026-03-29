@@ -93,13 +93,21 @@ export default function Footer() {
             © 2025 NOVI Technologies. All rights reserved.
           </p>
           <div className="flex gap-6">
-            {["Twitter", "LinkedIn", "GitHub", "Discord"].map((s) => (
+            {[
+              { name: "LinkedIn", url: "https://www.linkedin.com/company/novi-learning" },
+              { name: "Instagram", url: "https://www.instagram.com/novi_learning" },
+              { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61586136583783" },
+              { name: "Twitter", url: "https://twitter.com/noviLearn" },
+              { name: "GitHub", url: "https://github.com/CS-77-Novi/NOVI-Application" },
+            ].map((s) => (
               <a
-                key={s}
-                href="#"
+                key={s.name}
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xs text-muted hover:text-purple transition-colors duration-200"
               >
-                {s}
+                {s.name}
               </a>
             ))}
           </div>
