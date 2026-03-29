@@ -231,9 +231,9 @@ export default function TeamOrbit() {
             <p className="text-slate-400 text-sm leading-relaxed mb-6">{selectedMember.bio}</p>
             <div className="flex gap-3 justify-center flex-wrap">
               {selectedMember.socials.map((s) => (
-                <span key={s} className="px-4 py-2 border border-white/10 rounded-lg text-xs text-slate-400 hover:border-purple-500 hover:text-purple-400 transition-colors cursor-pointer">
-                  {s}
-                </span>
+                <a key={s.platform} href={s.url} target="_blank" rel="noopener noreferrer" className="px-4 py-2 border border-white/10 rounded-lg text-xs text-slate-400 hover:border-purple-500 hover:text-purple-400 transition-colors cursor-pointer">
+                  {s.platform}
+                </a>
               ))}
             </div>
           </div>

@@ -65,7 +65,7 @@ export default function Hero() {
               <Button href="#cta" variant="primary" size="lg">
                 Get Early Access
               </Button>
-              <Button href="#how" variant="ghost" size="lg">
+              <Button href="https://www.youtube.com/watch?v=rANTsC4KaMk" target="_blank" rel="noopener noreferrer" variant="ghost" size="lg">
                 Watch Demo ▶
               </Button>
             </motion.div>
