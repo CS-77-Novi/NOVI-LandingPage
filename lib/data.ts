@@ -35,9 +35,9 @@ export const IMPACT_STATS = [
 ];
 
 export const TESTIMONIALS = [
-  { quote: "NOVI completely changed how I run online lectures. I can immediately tell which students are struggling to stay engaged and intervene before they fall behind.", author: "Dr. Leila Farouk", role: "Professor · University of Dubai", initials: "DL" },
-  { quote: "The pop-up quiz feature is genius. Just when a student looks like they've tuned out, NOVI fires a quick question. It works — their attention snaps back instantly.", author: "Mr. Samuel Okonkwo", role: "High School Teacher · Lagos", initials: "MS" },
-  { quote: "Kids Mode is exceptional. The gamified feedback loop keeps my 9-year-old students on track without ever feeling punished. Their parents love the reports too.", author: "Ms. Aisha Rahman", role: "Primary Educator · Dhaka Academy", initials: "AR" },
+  { quote: "NOVI completely changed how I run online lectures. I can immediately tell which students are struggling to stay engaged and intervene before they fall behind.", author: "Mr. Mohamed Jaward Sally", role: "Software Engineer at Gapstars", initials: "MJ" },
+  { quote: "The pop-up quiz feature is genius. Just when a student looks like they've tuned out, NOVI fires a quick question. It works — their attention snaps back instantly.", author: "Mr. Aysha Amna Riswan", role: "Lecturer and Teacher", initials: "AA" },
+  { quote: "Kids Mode is exceptional. The gamified feedback loop keeps my 9-year-old students on track without ever feeling punished. Their parents love the reports too.", author: "Mr. Hunaif Fawaz", role: "Mathematics Lecturer", initials: "HF" },
 ];
 
 export const USE_CASES = [
